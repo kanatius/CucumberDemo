@@ -1,9 +1,15 @@
 package cucumber.features.steps;
 
-import org.junit.jupiter.api.extension.ExtendWith;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+import org.junit.runner.RunWith;
 
-
-//@ExtendWith();
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		dryRun=true,
+		features={"src\\cucumber\\features"},
+		plugin = {"pretty", "summary"}
+)
 public class Runner {
 
 }
