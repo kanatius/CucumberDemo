@@ -17,4 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+@tag
+Feature: Feature 2
 
+	@tag1
+	Scenario: Testando passo 2
+		Given Passo 1
+		When Passo 2
+		Then Passo 3
+		And Passo 4
+	

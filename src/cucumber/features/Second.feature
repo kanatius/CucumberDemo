@@ -16,10 +16,14 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
-Feature: EDU AUT Login
 
-  Scenario: Verify the Sign Up un EDU Bank
-    Given User navigates to the Home Page
-    When User Enters the Signup Details
-    Then User Looged In to EDU
+@tag
+Feature: Feature 2
+
+	@tag1
+	Scenario: Testando passo 2
+		Given Passo 1
+		When Passo 2
+		Then Passo 3
+		And Passo 4
+	

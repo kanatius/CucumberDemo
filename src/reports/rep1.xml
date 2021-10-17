@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.226">
-    <testcase classname="EDU AUT Login" name="Verify the Sign Up un EDU Bank" time="0.075">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigates to the Home Page.......................................undefined
-When User Enters the Signup Details.........................................skipped
-Then User Logged In to EDU..................................................skipped
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.338">
+    <testcase classname="EDU AUT Login" name="Verify the Sign Up un EDU Bank" time="0.1">
+        <system-out><![CDATA[Given User navigates to the Home Page.......................................passed
+When User Enters the Signup Details.........................................passed
+Then User Logged In to EDU..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature 2" name="Testando passo 2" time="0.007">
+        <system-out><![CDATA[Given Passo 1...............................................................passed
+When Passo 2................................................................passed
+Then Passo 3................................................................passed
+And Passo 4.................................................................passed
+]]></system-out>
     </testcase>
 </testsuite>

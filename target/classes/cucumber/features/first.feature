@@ -19,6 +19,8 @@
 
 @tag
 Feature: EDU AUT Login
+
+	@tag1
   Scenario: Verify the Sign Up un EDU Bank
     Given User navigates to the Home Page
     When User Enters the Signup Details
