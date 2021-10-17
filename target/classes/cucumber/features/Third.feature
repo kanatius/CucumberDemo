@@ -29,11 +29,19 @@ Feature: To check the Edit Profile  functionality for each user
   @tag2
   Scenario Outline: Successful login with valid credentials 2
     Given user is on PackAndGo login page
-    When user enters the <username> and <password> credentials 2
+    When user enters the <username> and <password> credentials
     Then user logged in and checks for Edit Profile
     And user logout from application
 
     Examples: 
       | username  | password  |
-      | "Natan" 	| "45678" 	|
+      | "Natan"		| "45678" 	|
       | "Natan" 	| "12312" 	|
+   
+   @tag3
+   	Scenario Outline: Successful login with valid credentials 3
+	    Given user is on PackAndGo login page
+	    When user enters the username and password credentials 2
+	    	| Natan | 45678 |
+	    Then user logged in and checks for Edit Profile
+	    And user logout from application

@@ -1,7 +1,10 @@
 package cucumber.features.steps;
 
+import java.util.List;
+
 import org.junit.Assert;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,11 +19,19 @@ public class Third {
 
 	@When("user enters the {string} and {string} credentials")
 	public void enterLogInData(String username, String password) {
-		Assert.assertTrue(username.equals("Natan") && password.equals("45678"));
+		
+		Boolean looged = username.equals("Natan") && password.equals("45678");
+		
+		Assert.assertTrue(looged);
 	}
 	
-	@When("user enters the {string} and {string} credentials 2")
-	public void enterLogInData2(String username, String password) {
+	@When("user enters the username and password credentials 2")
+	public void enterLogInData2(DataTable data) {
+			
+		List<List<String>> row = data.asLists();
+		String username = row.get(0).get(0);
+		String password = row.get(0).get(1);
+		
 		Assert.assertTrue(username.equals("Natan") && password.equals("45678"));
 	}
 
