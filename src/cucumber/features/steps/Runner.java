@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+		tags = "(@tag2 and (@pass or @fail)) or @LoginTest",
 		dryRun=false,
 		features={"src\\cucumber\\features"},
 		plugin={"html:src\\reports\\rep.html","junit:src\\reports\\rep1.xml","json:\\src\\reports\\rep2.json", "pretty", "summary"},

@@ -16,10 +16,10 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+
 Feature: To check the Edit Profile  functionality for each user
 
-  @tag1
+  @LoginTest
   Scenario Outline: Successful login with valid credentials
     Given user is on PackAndGo login page
     When user enters the "Natan" and "45678" credentials
@@ -33,9 +33,14 @@ Feature: To check the Edit Profile  functionality for each user
     Then user logged in and checks for Edit Profile
     And user logout from application
 
+		@pass
     Examples: 
       | username  | password  |
       | "Natan"		| "45678" 	|
+    
+    @fail
+    Examples: 
+      | username  | password  |
       | "Natan" 	| "12312" 	|
    
    @tag3
