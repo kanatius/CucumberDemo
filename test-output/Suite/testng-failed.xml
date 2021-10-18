@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.TestNgSuiteRunner">
+      <class name="tests.testng.TestNgSuiteRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="5"/>
+          <include name="runScenario" invocation-numbers="7 8 9"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- tests.TestNgSuiteRunner -->
+      </class> <!-- tests.testng.TestNgSuiteRunner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

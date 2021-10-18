@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 17 23:17:30 BRT 2021</td>
+<td>Started on:</td><td>Sun Oct 17 23:55:50 BRT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4477 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1208 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at tests.features.steps.Third.enterLogInData(Third.java:27)
-	at ?.user enters the &quot;Natan&quot; and &quot;12312&quot; credentials(classpath:tests/features/Third.feature:32)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1195064186", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1195064186'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;12312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1793899405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1793899405'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at tests.features.steps.Third.enterLogInData(Third.java:27)
-	at ?.user enters the &quot;Natan&quot; and &quot;12312&quot; credentials(classpath:tests/features/Third.feature:32)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;12312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
 </pre></div></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
+<tr>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;1asdasd2&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace632475595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632475595'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;1asdasd2&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+</pre></div></td>
+<td>0</td>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
+<tr>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;122312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1302725372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1302725372'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ?.user enters the &quot;Natan&quot; and &quot;122312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+</pre></div></td>
+<td>0</td>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -99,35 +131,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Optional[To check the Edit Profile  functionality for each user]"</td>
-<td></td>
-<td>3</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
-<tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill in search form", "Optional[Search for a line in google page]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
 <td></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 3", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Optional[To check the Edit Profile  functionality for each user]"</td>
 <td></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Sign Up un EDU Bank", "Optional[EDU AUT Login]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 3", "Optional[To check the Edit Profile  functionality for each user]"</td>
 <td></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testando passo 2", "Optional[Feature 2]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testando passo 2", "Optional[Feature 2]"</td>
 <td></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 <tr>
-<td title='tests.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
 <td></td>
 <td>0</td>
-<td>tests.TestNgSuiteRunner@6fdbe764</td></tr>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
+<tr>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Sign Up un EDU Bank", "Optional[EDU AUT Login]"</td>
+<td></td>
+<td>0</td>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
+<tr>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Fill in search form", "Optional[Search for a line in google page]"</td>
+<td></td>
+<td>0</td>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
+<tr>
+<td title='tests.testng.TestNgSuiteRunner.runScenario()'><b>runScenario</b><br>Test class: tests.testng.TestNgSuiteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]"</td>
+<td></td>
+<td>0</td>
+<td>tests.testng.TestNgSuiteRunner@32ee6fee</td></tr>
 </table><p>
 </body>
 </html>

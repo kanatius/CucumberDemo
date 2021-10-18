@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.809">
+    <testcase classname="EDU AUT Login" name="Verify the Sign Up un EDU Bank" time="0.153">
+        <system-out><![CDATA[Given User navigates to the Home Page.......................................passed
+When User Enters the Signup Details.........................................passed
+Then User Logged In to EDU..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search for a line in google page" name="Fill in search form" time="0.028">
+        <system-out><![CDATA[Given I am on the homepage..................................................passed
+When I fill in "search" with:...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature 2" name="Testando passo 2" time="0.01">
+        <system-out><![CDATA[Given Passo 1...............................................................passed
+When Passo 2................................................................passed
+Then Passo 3................................................................passed
+And Passo 4.................................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials" time="0.016">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2" time="0.01">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 2" time="0.016">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "12312" credentials........................failed
+Then user logged in and checks for Edit Profile.............................skipped
+And user logout from application............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at tests.junit.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the "Natan" and "12312" credentials(file:///C:/Users/natan/eclipse-workspace/CucumberSampleDemos/src/tests/junit/features/Third.feature:32)
+]]></failure>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 3" time="0.017">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the username and password credentials 2....................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
