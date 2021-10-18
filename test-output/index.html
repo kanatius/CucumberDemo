@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\natan\AppData\Local\Temp\testng-eclipse-453564669\testng-customsuite.xml</span>
+                    <span>C:\Users\natan\AppData\Local\Temp\testng-eclipse--804667985\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +126,21 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.testng.TestNgSuiteRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials&quot;, &quot;Optional[To check the Edit Profile  functionality for ea...)">runScenario("Successful login with valid credentials", "Optional[To check the Edit Profile  functionality for ea...)</a> <!-- method navigator-link -->
@@ -119,12 +158,107 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.testng.TestNgSuiteRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the &quot;Natan&quot; and &quot;12312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the &quot;Natan&quot; and &quot;122312&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the &quot;Natan&quot; and &quot;1asdasd2&quot; credentials(classpath:tests/testng/features/Third.feature:32)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">tests.testng.TestNgSuiteRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials 2&quot;, &quot;Optional[To check the Edit Profile  functionality for ...)">
+                  </a> <!-- runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for each user]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Successful login with valid credentials&quot;, &quot;Optional[To check the Edit Profile  functionality for ea...)">
@@ -140,7 +274,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\natan\AppData\Local\Temp\testng-eclipse-453564669\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\natan\AppData\Local\Temp\testng-eclipse--804667985\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,16 +331,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'tests.testng.TestNgSuiteRunner')
-data.setCell(0, 3, 233);
+data.setCell(0, 3, 111);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(2, 3, 18);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(3, 3, 17);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(5, 3, 9);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'tests.testng.TestNgSuiteRunner')
+data.setCell(6, 3, 9);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 233 ms</span>
+              <span class="suite-total-time">Total running time: 194 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -234,16 +392,46 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.testng.TestNgSuiteRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@73db4768)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7a26928a)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Successful login with valid credentials", "Optional[To check the Edit Profile  functionality for ea...)</span>
-                <span class="method-start">658 ms</span>
+                <span class="method-start">635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successful login with valid credentials 2", "Optional[To check the Edit Profile  functionality for ...)</span>
+                <span class="method-start">823 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">898 ms</span>
+                <span class="method-start">844 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

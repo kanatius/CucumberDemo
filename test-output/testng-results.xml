@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-18T00:09:33 BRT" name="Default suite" finished-at="2021-10-18T00:09:34 BRT" duration-ms="950">
+  <suite started-at="2021-10-18T09:59:18 BRT" name="Default suite" finished-at="2021-10-18T09:59:19 BRT" duration-ms="1111">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-10-18T00:09:33 BRT" name="Default test" finished-at="2021-10-18T00:09:34 BRT" duration-ms="950">
+    <test started-at="2021-10-18T09:59:18 BRT" name="Default test" finished-at="2021-10-18T09:59:19 BRT" duration-ms="1111">
       <class name="tests.testng.TestNgSuiteRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T00:09:33 BRT" name="setUpClass" finished-at="2021-10-18T00:09:34 BRT" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="setUpClass" finished-at="2021-10-18T09:59:18 BRT" duration-ms="622" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@73db4768]]>
+                <![CDATA[org.testng.TestRunner@7a26928a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T00:09:34 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T00:09:34 BRT" duration-ms="233" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:18 BRT" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,148 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T00:09:34 BRT" name="tearDownClass" finished-at="2021-10-18T00:09:34 BRT" duration-ms="5" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:18 BRT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:18 BRT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:18 BRT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:18 BRT" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+at ✽.user enters the "Natan" and "12312" credentials(classpath:tests/testng/features/Third.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:18 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:19 BRT" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+at ✽.user enters the "Natan" and "122312" credentials(classpath:tests/testng/features/Third.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:19 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T09:59:19 BRT" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To check the Edit Profile  functionality for each user]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+at ✽.user enters the "Natan" and "1asdasd2" credentials(classpath:tests/testng/features/Third.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.testng.TestNgSuiteRunner@3012646b]" started-at="2021-10-18T09:59:19 BRT" name="tearDownClass" finished-at="2021-10-18T09:59:19 BRT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

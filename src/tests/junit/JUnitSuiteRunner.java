@@ -4,9 +4,6 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
-
-//MAKE SURE THAT YOU ARE USING THE LIB org.testng.Assert, OHTERWISE ALL TESTS WILL PASS
-
 @RunWith(Cucumber.class)
 @CucumberOptions(
 //		tags = "(@tag2 and (@pass or @fail)) or @LoginTest",

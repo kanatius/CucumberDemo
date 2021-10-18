@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.364">
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials" time="0.015">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2" time="0.001">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 2" time="0">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 3" time="0.006">
+        <system-out><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "45678" credentials........................passed
+Then user logged in and checks for Edit Profile.............................passed
+And user logout from application............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 4" time="0.008">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "12312" credentials........................failed
+Then user logged in and checks for Edit Profile.............................skipped
+And user logout from application............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the "Natan" and "12312" credentials(classpath:tests/testng/features/Third.feature:32)
+]]></failure>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 5" time="0.002">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "122312" credentials.......................failed
+Then user logged in and checks for Edit Profile.............................skipped
+And user logout from application............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the "Natan" and "122312" credentials(classpath:tests/testng/features/Third.feature:32)
+]]></failure>
+    </testcase>
+    <testcase classname="To check the Edit Profile  functionality for each user" name="Successful login with valid credentials 2 6" time="0.005">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user is on PackAndGo login page.......................................passed
+When user enters the "Natan" and "1asdasd2" credentials.....................failed
+Then user logged in and checks for Edit Profile.............................skipped
+And user logout from application............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.testng.features.steps.Third.enterLogInData(Third.java:25)
+	at ✽.user enters the "Natan" and "1asdasd2" credentials(classpath:tests/testng/features/Third.feature:32)
+]]></failure>
+    </testcase>
+</testsuite>
